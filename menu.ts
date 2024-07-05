@@ -8,13 +8,6 @@ export function main() {
 
   let opcao: number;
 
-  const conta: Conta = new Conta(1, 123, 1, "Tony Tornado", 10000);
-  conta.visualizar();
-  conta.sacar(10500);
-  conta.visualizar();
-  conta.depositar(5000);
-  conta.visualizar();
-
   const contacorrente: ContaCorrente = new ContaCorrente(2, 123, 1, "Vera Verao", 15000, 1000);
   contacorrente.visualizar();
   contacorrente.sacar(2000);
@@ -28,12 +21,6 @@ export function main() {
   contapoupanca.visualizar();
   contapoupanca.depositar(1000);
   contapoupanca.visualizar();
-
-  const c1: Conta = new Conta(1, 1234, 1, 'Gabriel Rodrigues', 350000.00);
-  const c2: Conta = new Conta(1, 2345, 2, "Michael jackson dos Santos", 150000.00);
-
-  c1.visualizar();
-  c2.visualizar();
 
   while (true) {
 
