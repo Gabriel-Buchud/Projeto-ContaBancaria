@@ -3,7 +3,7 @@ import { colors } from '../util/Colors';
 // Criando a classe Conta.
 export abstract class Conta {
 
-  // Definir os atributos da Classe.
+  // Define os atributos da Classe.
   private _titular: string;
   private _agencia: number;
   private _tipo: number;
