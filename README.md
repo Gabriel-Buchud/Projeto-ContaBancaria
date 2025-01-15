@@ -28,58 +28,11 @@ A aplicação implementa funcionalidades de **CRUD (Create, Read, Update, Delete
 
 ---
 
-## Como Executar o Projeto
-
-### Requisitos
-- [Node.js](https://nodejs.org/) instalado.
-
-### Passos
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-conta-bancaria.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd projeto-conta-bancaria
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-4. Execute o projeto:
-   ```bash
-   npm start
-   ```
-
----
-
-## Estrutura do Projeto
-
-O projeto segue uma estrutura simples para organização do código:
-```
-projeto-conta-bancaria/
-├── src/
-│   ├── models/         # Modelos de dados
-│   ├── controllers/    # Lógica das operações
-│   └── utils/          # Funções auxiliares
-├── tests/              # Testes automatizados
-├── package.json        # Configuração do projeto
-└── README.md           # Documentação do projeto
-```
-
----
-
 ## Futuras Implementações
 
 - Integração com banco de dados para persistência dos dados.
 - Implementação de autenticação para controle de acesso.
 - Interface gráfica para interação com o sistema.
-
----
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ---
 
